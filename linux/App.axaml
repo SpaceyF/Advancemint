@@ -1,0 +1,24 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AdvancemintLinux.App">
+    <Application.Styles>
+        <SimpleTheme />
+    </Application.Styles>
+
+    <TrayIcon.Icons>
+        <TrayIcons>
+            <TrayIcon Icon="avares://advancemint/assets/icon.png" ToolTipText="Advancemint">
+                <TrayIcon.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="Show progress" Click="OnProgress" />
+                        <NativeMenuItem Header="Test toast" Click="OnTest" />
+                        <NativeMenuItem Header="Start on login" ToggleType="CheckBox" Click="OnAutoStart" />
+                        <NativeMenuItemSeparator />
+                        <NativeMenuItem Header="Reset progress" Click="OnReset" />
+                        <NativeMenuItem Header="Exit" Click="OnExit" />
+                    </NativeMenu>
+                </TrayIcon.Menu>
+            </TrayIcon>
+        </TrayIcons>
+    </TrayIcon.Icons>
+</Application>

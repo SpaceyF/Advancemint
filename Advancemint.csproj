@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>assets\icon.ico</ApplicationIcon>
+    <AssemblyName>Advancemint</AssemblyName>
+    <RootNamespace>Advancemint</RootNamespace>
+    <NoWarn>WFO0003</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- linux/ holds the separate Avalonia build; it is not part of this project -->
+    <Compile Remove="linux\**" />
+    <None Remove="linux\**" />
+    <Page Remove="linux\**" />
+    <Resource Remove="linux\**" />
+    <AvaloniaResource Remove="linux\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- baked into the exe so a single file is genuinely self-contained -->
+    <Resource Include="assets\Monocraft.ttf" />
+    <Resource Include="assets\now_playing.png" />
+    <Resource Include="assets\music_notes.png" />
+    <Resource Include="assets\advancement.wav" />
+  </ItemGroup>
+
+</Project>

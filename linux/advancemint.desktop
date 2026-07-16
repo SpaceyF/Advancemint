@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Advancemint
+Comment=Minecraft-style achievement toasts for your PC
+Exec=/opt/advancemint/advancemint
+Icon=/opt/advancemint/assets/icon.png
+Terminal=false
+Categories=Utility;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

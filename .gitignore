@@ -1,0 +1,15 @@
+# build output
+bin/
+obj/
+*.user
+
+# logs
+*.log
+
+# game-ripped assets (not mine to ship - see assets/README.md)
+assets/Monocraft.ttf
+assets/now_playing.png
+assets/music_notes.png
+linux/assets/Monocraft.ttf
+linux/assets/now_playing.png
+linux/assets/music_notes.png
