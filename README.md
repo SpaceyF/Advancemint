@@ -1,7 +1,5 @@
 # Advancemint 🏆
 
-<img src="docs/icon.png" width="96" align="right" alt="advancemint icon">
-
 minecraft-style **"Advancement Made!"** toasts for stuff your pc actually does. stay up
 past 2am? achievement. open discord? achievement. battery hits 100%? achievement. push
 your cpu to 90%? achievement. ~55 of them, and they just fire while you live your life.
