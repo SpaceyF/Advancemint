@@ -1,4 +1,4 @@
-![Made With C# Badge](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=MADE+WITH&secondaryLabel=C%23&primaryBGColor=%236f4ad9&primaryTextColor=%23FFFFFF&secondaryBGColor=%237510fe&secondaryTextColor=%23FFFFFF&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase)
+[![forthebadge](https://forthebadge.com/badges/powered-by-black-magic.svg)](https://forthebadge.com) ![Made With C# Badge](https://forthebadge.com/api/badges/generate?panels=2&primaryLabel=MADE+WITH&secondaryLabel=C%23&primaryBGColor=%236f4ad9&primaryTextColor=%23FFFFFF&secondaryBGColor=%237510fe&secondaryTextColor=%23FFFFFF&primaryFontSize=12&primaryFontWeight=600&primaryLetterSpacing=2&primaryFontFamily=Roboto&primaryTextTransform=uppercase&secondaryFontSize=12&secondaryFontWeight=900&secondaryLetterSpacing=2&secondaryFontFamily=Montserrat&secondaryTextTransform=uppercase)
 
 # Advancemint 🏆
 
